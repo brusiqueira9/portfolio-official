@@ -8,6 +8,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import siteAgroCP from "../../Assets/Projects/siteagro.png";
+import chamaMoto from "../../Assets/Projects/chama_motorista.png;
 
 function Projects() {
   return (
@@ -47,7 +48,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chamaMoto}
               isBlog={false}
               isGitLab={false}
               title="App para chamar motorista por voz"
