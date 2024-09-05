@@ -50,6 +50,18 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               isGitLab={false}
+              title="App para chamar motorista por voz"
+              description="A aplicação web 'Chama Motorista' é um sistema desenvolvido com HTML, CSS e JavaScript, focado em operações logísticas de carregamento e descarga. O usuário pode inserir o nome do motorista, a placa do veículo e o tipo de operação (carregamento ou descarga), com suporte à escolha de diferentes vozes, como 'Microsoft Thalita Online (Natural) - Portuguese (Brazil)', para anunciar as informações via voz de IA. A aplicação utiliza armazenamento local (localStorage) para salvar os últimos chamados, oferecendo a opção de "chamar novamente" através de um botão de reuso, otimizando o fluxo de trabalho. O sistema também permite a personalização das vozes, ajustando a experiência para diferentes cenários operacionais. O design da aplicação está em contínuo aprimoramento, buscando fornecer uma interface intuitiva e visualmente limpa para os usuários. Essa versão reflete os aspectos técnicos do projeto, como armazenamento, manipulação de dados e escolha de vozes."
+              ghLink="https://github.com/brusiqueira9/chamada_motorista"
+              demoLink="https://chamamotorista.netlify.app/"
+            />
+          </Col>
+
+              <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              isGitLab={false}
               title="Vou revelar seu destino"
               description="A página web 'Destino Mágico' é um projeto desenvolvido durante a Maratona Explorer do Rocketseat. Utilizando HTML, CSS e JavaScript, o site interage com o usuário, fazendo perguntas ao 'gênio' para revelar um destino. Com recursos como variáveis, tipos de dados, operadores, condicionais, estruturas de dados e funções, o projeto cria uma experiência divertida e interativa para os usuários, enquanto explora conceitos essenciais de desenvolvimento web. Além disso, o site é visualmente atraente, com imagens de uma bola de cristal e um fundo envolvente para criar uma atmosfera mágica."
               ghLink="https://github.com/brusiqueira9/maratona-explorer-1"
